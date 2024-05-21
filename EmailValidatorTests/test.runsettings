@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="ValidEmail1" value="test@example.com" />
+		<Parameter name="ValidEmail2" value="another.test@domain.co" />
+		<Parameter name="ValidEmail3" value="valid.email@domain.com" />
+		<Parameter name="ValidEmail4" value="email@domain.com" />
+		<Parameter name="ValidEmail5" value="first.last@domain.com" />
+		<Parameter name="ValidEmail6" value="email@sub.domain.com" />
+		<Parameter name="ValidEmail7" value="email+alias@domain.com" />
+		<Parameter name="ValidEmail8" value="1234567890@domain.com" />
+		<Parameter name="ValidEmail9" value="email@123.123.123.123" />
+		<Parameter name="ValidEmail10" value="user@domain.com" />
+
+		<Parameter name="InvalidEmail1" value="invalidemail@" />
+		<Parameter name="InvalidEmail2" value="another.test@domain" />
+		<Parameter name="InvalidEmail3" value="no@spaces allowed.com" />
+		<Parameter name="InvalidEmail4" value="toolonglocalparttoolonglocalparttoolonglocalparttoolonglocalparttoolonglocalparttoolonglocalpart@example.com" />
+		<Parameter name="InvalidEmail5" value="invalid@missingdotcom" />
+		<Parameter name="InvalidEmail6" value="name@verylongdomainpartname@verylongdomainpartname@verylongdomainpartname@verylongdomainpartname.com" />
+		<Parameter name="InvalidEmail7" value="@missinglocal.com" />
+		<Parameter name="InvalidEmail8" value="missingat.com" />
+		<Parameter name="InvalidEmail9" value="missingdomain@.com" />
+		<Parameter name="InvalidEmail10" value="@.com" />
+	</TestRunParameters>
+		<LoggerRunSettings>
+			<Loggers>
+				<Logger friendlyname="Console" enabled="true">
+					<Configuration>
+						<Verbosity>quiet</Verbosity>
+					</Configuration>
+				</Logger>
+				<Logger friendlyname="trx" enabled="true">
+					<Configuration>
+						<LogFileName>foo.trx</LogFileName>
+					</Configuration>
+				</Logger>
+				<Logger friendlyname="html" enabled="true">
+					<Configuration>
+						<LogFileName>TestResults.html</LogFileName>
+					</Configuration>
+				</Logger>
+			</Loggers>
+		
+		</LoggerRunSettings>
+</RunSettings>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engler_EmailValidator", "Engler_EmailValidator\Engler_EmailValidator.csproj", "{DA60DAA7-1695-4401-A552-D6314E8011AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailValidatorTests", "EmailValidatorTests\EmailValidatorTests.csproj", "{46A0F971-06DA-4D71-ABDA-06405F6005DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA60DAA7-1695-4401-A552-D6314E8011AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA60DAA7-1695-4401-A552-D6314E8011AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA60DAA7-1695-4401-A552-D6314E8011AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA60DAA7-1695-4401-A552-D6314E8011AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A0F971-06DA-4D71-ABDA-06405F6005DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A0F971-06DA-4D71-ABDA-06405F6005DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A0F971-06DA-4D71-ABDA-06405F6005DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A0F971-06DA-4D71-ABDA-06405F6005DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF810951-8868-414B-92D0-F37ABF867C58}
+	EndGlobalSection
+EndGlobal
