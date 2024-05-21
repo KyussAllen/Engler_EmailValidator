@@ -3,7 +3,7 @@
 <RunSettings>
 	<TestRunParameters>
 		<Parameter name="ValidEmail1" value="test@example.com" />
-		<Parameter name="ValidEmail2" value="another.test@domain.co" />
+		<Parameter name="ValidEmail2" value="another.test@domain.com" />
 		<Parameter name="ValidEmail3" value="valid.email@domain.com" />
 		<Parameter name="ValidEmail4" value="email@domain.com" />
 		<Parameter name="ValidEmail5" value="first.last@domain.com" />
@@ -16,7 +16,7 @@
 		<Parameter name="InvalidEmail1" value="invalidemail@" />
 		<Parameter name="InvalidEmail2" value="another.test@domain" />
 		<Parameter name="InvalidEmail3" value="no@spaces allowed.com" />
-		<Parameter name="InvalidEmail4" value="toolonglocalparttoolonglocalparttoolonglocalparttoolonglocalparttoolonglocalparttoolonglocalpart@example.com" />
+		<Parameter name="InvalidEmail4" value="toomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalparttoomanycharactersinthislocalpart@example.com" />
 		<Parameter name="InvalidEmail5" value="invalid@missingdotcom" />
 		<Parameter name="InvalidEmail6" value="name@verylongdomainpartname@verylongdomainpartname@verylongdomainpartname@verylongdomainpartname.com" />
 		<Parameter name="InvalidEmail7" value="@missinglocal.com" />

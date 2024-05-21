@@ -5,6 +5,7 @@ using System.Text;
 
 namespace EmailValidatorTests
 {
+    
     public class TestBase
     {
         public TestContext? TestContext { get; set; }
@@ -15,7 +16,7 @@ namespace EmailValidatorTests
 
             try
             {
-                var temp = TestContext.Properties[name];
+                var temp = TestContext?.Properties[name];
                 if (temp != null)
                 {
                     returnValue = (T)Convert.ChangeType(temp, typeof(T));

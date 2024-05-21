@@ -4,10 +4,10 @@ namespace EmailValidatorApp
 {
     public class EmailValidator
     {
+
         static void Main(string[] args)
         {
-            bool isValid = IsValidEmail("example@example.com");
-            Console.WriteLine($"Is email valid? {isValid}");
+            // Placeholder Main method
         }
         public static bool IsValidEmail(string email)
         {
@@ -40,7 +40,7 @@ namespace EmailValidatorApp
             }
 
             string[] domainSegments = domainPart.Split('.');
-            if (domainSegments.Length <= 2)
+            if (domainSegments.Length < 2)
                 return false;
 
             foreach (string segment in domainSegments)
